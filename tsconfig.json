@@ -1,0 +1,39 @@
+{
+     "include": ["src/**/*"],
+     "exclude": ["**/node_modules", "dist/**"],
+
+     "compilerOptions": {
+          "alwaysStrict": true,
+          "noImplicitAny": true,
+          "strictNullChecks": true,
+          "strictPropertyInitialization": true,
+          "strictFunctionTypes": true,
+          "noImplicitThis": true,
+          "strictBindCallApply": true,
+          "noPropertyAccessFromIndexSignature": true,
+          "noUncheckedIndexedAccess": true,
+          "noImplicitReturns": true,
+          "noFallthroughCasesInSwitch": true,
+          "noUnusedLocals": true,
+          "noUnusedParameters": true,
+          "allowUnreachableCode": false,
+          "allowUnusedLabels": false,
+          "noImplicitUseStrict": false,
+          "suppressExcessPropertyErrors": false,
+          "suppressImplicitAnyIndexErrors": false,
+          "noStrictGenericChecks": false,
+          "allowJs": true,
+
+          "declaration": true,
+          "declarationMap": true,
+          "sourceMap": false,
+          "allowSyntheticDefaultImports": true,
+          // "esModuleInterop": true,
+
+          "module": "CommonJS",
+          "moduleResolution": "nodenext",
+          "resolveJsonModule": true,
+          "outDir": "dist",
+          "lib": ["dom", "ESNext"],
+     }
+}
